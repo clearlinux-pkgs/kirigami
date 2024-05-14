@@ -5,15 +5,15 @@
 # autospec version: v10
 # autospec commit: 5905be9
 #
-# Source0 file verified with key 0xD7574483BB57B18D (jr@jriddell.org)
+# Source0 file verified with key 0x2C8DF587A6D4AAC1 (nicolas.fella@kde.org)
 #
 Name     : kirigami
-Version  : 6.1.0
-Release  : 6
-URL      : https://download.kde.org/stable/frameworks/6.1/kirigami-6.1.0.tar.xz
-Source0  : https://download.kde.org/stable/frameworks/6.1/kirigami-6.1.0.tar.xz
-Source1  : https://download.kde.org/stable/frameworks/6.1/kirigami-6.1.0.tar.xz.sig
-Source2  : D7574483BB57B18D.pkey
+Version  : 6.2.1
+Release  : 7
+URL      : https://download.kde.org/stable/frameworks/6.2/kirigami-6.2.1.tar.xz
+Source0  : https://download.kde.org/stable/frameworks/6.2/kirigami-6.2.1.tar.xz
+Source1  : https://download.kde.org/stable/frameworks/6.2/kirigami-6.2.1.tar.xz.sig
+Source2  : 2C8DF587A6D4AAC1.pkey
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause CC0-1.0 GPL-2.0 LGPL-2.0 LGPL-2.1 LGPL-3.0
@@ -78,16 +78,16 @@ mkdir .gnupg
 chmod 700 .gnupg
 gpg --homedir .gnupg --import %{SOURCE2}
 gpg --homedir .gnupg --status-fd 1 --verify %{SOURCE1} %{SOURCE0} > gpg.status
-grep -E '^\[GNUPG:\] (GOODSIG|EXPKEYSIG) D7574483BB57B18D' gpg.status
-%setup -q -n kirigami-6.1.0
-cd %{_builddir}/kirigami-6.1.0
+grep -E '^\[GNUPG:\] (GOODSIG|EXPKEYSIG) 2C8DF587A6D4AAC1' gpg.status
+%setup -q -n kirigami-6.2.1
+cd %{_builddir}/kirigami-6.2.1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1713114855
+export SOURCE_DATE_EPOCH=1715652095
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -124,7 +124,7 @@ FFLAGS="$CLEAR_INTERMEDIATE_FFLAGS"
 FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS"
 ASFLAGS="$CLEAR_INTERMEDIATE_ASFLAGS"
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS"
-export SOURCE_DATE_EPOCH=1713114855
+export SOURCE_DATE_EPOCH=1715652095
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kirigami
 cp %{_builddir}/kirigami-%{version}/LICENSES/CC0-1.0.txt %{buildroot}/usr/share/package-licenses/kirigami/82da472f6d00dc5f0a651f33ebb320aa9c7b08d0 || :
@@ -164,6 +164,7 @@ popd
 /usr/share/locale/fi/LC_MESSAGES/libkirigami6_qt.qm
 /usr/share/locale/fr/LC_MESSAGES/libkirigami6_qt.qm
 /usr/share/locale/gl/LC_MESSAGES/libkirigami6_qt.qm
+/usr/share/locale/he/LC_MESSAGES/libkirigami6_qt.qm
 /usr/share/locale/hi/LC_MESSAGES/libkirigami6_qt.qm
 /usr/share/locale/hu/LC_MESSAGES/libkirigami6_qt.qm
 /usr/share/locale/ia/LC_MESSAGES/libkirigami6_qt.qm
@@ -233,11 +234,11 @@ popd
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libKirigami.so.6
-/usr/lib64/libKirigami.so.6.1.0
+/usr/lib64/libKirigami.so.6.2.1
 /usr/lib64/libKirigamiDelegates.so.6
-/usr/lib64/libKirigamiDelegates.so.6.1.0
+/usr/lib64/libKirigamiDelegates.so.6.2.1
 /usr/lib64/libKirigamiPlatform.so.6
-/usr/lib64/libKirigamiPlatform.so.6.1.0
+/usr/lib64/libKirigamiPlatform.so.6.2.1
 /usr/lib64/qt6/qml/org/kde/kirigami/AboutItem.qml
 /usr/lib64/qt6/qml/org/kde/kirigami/AboutPage.qml
 /usr/lib64/qt6/qml/org/kde/kirigami/AbstractApplicationHeader.qml
