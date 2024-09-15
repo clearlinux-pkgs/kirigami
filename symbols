@@ -2,297 +2,99 @@ libKirigami.so.6:qml_register_types_org_kde_kirigami()
 libKirigamiDelegates.so.6:qml_register_types_org_kde_kirigami_delegates()
 libKirigamiDialogs.so.6:qml_register_types_org_kde_kirigami_dialogs()
 libKirigamiLayouts.so.6:qml_register_types_org_kde_kirigami_layouts()
-libKirigamiPlatform.so.6:qml_register_types_org_kde_kirigami_platform()
-libKirigamiPlatform.so.6:ColorUtils::alphaBlend(QColor const&, QColor const&)
-libKirigamiPlatform.so.6:ColorUtils::colorToLab(QColor const&)
-libKirigamiPlatform.so.6:ColorUtils::colorToXYZ(QColor const&)
-libKirigamiPlatform.so.6:ColorUtils::scaleColor(QColor const&, QJSValue const&)
-libKirigamiPlatform.so.6:ColorUtils::adjustColor(QColor const&, QJSValue const&)
-libKirigamiPlatform.so.6:ColorUtils::qt_metacall(QMetaObject::Call, int, void**)
-libKirigamiPlatform.so.6:ColorUtils::qt_metacast(char const*)
-libKirigamiPlatform.so.6:ColorUtils::grayForColor(QColor const&)
-libKirigamiPlatform.so.6:ColorUtils::tintWithAlpha(QColor const&, QColor const&, double)
-libKirigamiPlatform.so.6:ColorUtils::brightnessForColor(QColor const&)
-libKirigamiPlatform.so.6:ColorUtils::linearInterpolation(QColor const&, QColor const&, double)
-libKirigamiPlatform.so.6:ColorUtils::chroma(QColor const&)
-libKirigamiPlatform.so.6:ColorUtils::luminance(QColor const&)
 libKirigamiPlatform.so.6:ColorUtils::ColorUtils(QObject*)
-libKirigamiPlatform.so.6:ColorUtils::ColorUtils(QObject*)
-libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::qt_metacall(QMetaObject::Call, int, void**)
-libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::qt_metacast(char const*)
+libKirigamiPlatform.so.6:Kirigami::Platform::BasicThemeDefinition::BasicThemeDefinition(QObject*)
+libKirigamiPlatform.so.6:Kirigami::Platform::BasicThemeDefinition::changed()
+libKirigamiPlatform.so.6:Kirigami::Platform::BasicThemeDefinition::sync(QQuickItem*)
+libKirigamiPlatform.so.6:Kirigami::Platform::BasicThemeDefinition::syncToQml(Kirigami::Platform::PlatformTheme*)
+libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::IconSizes(Kirigami::Platform::Units*)
+libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::enormousChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::hugeChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::largeChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::mediumChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::sizeForLabelsChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::smallChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::smallMediumChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::InputMethod(QObject*)
 libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::activeChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::availableChanged()
 libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::enabledChanged()
 libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::visibleChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::availableChanged()
 libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::willShowOnActiveChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::InputMethod(QObject*)
-libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::InputMethod(QObject*)
 libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::~InputMethod()
-libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::~InputMethod()
-libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::~InputMethod()
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setInherit(bool)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::qt_metacall(QMetaObject::Call, int, void**)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::qt_metacast(char const*)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setColorSet(Kirigami::Platform::PlatformTheme::ColorSet)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setLinkColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setSmallFont(QFont const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setTextColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::colorsChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::iconFromTheme(QString const&, QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setColorGroup(Kirigami::Platform::PlatformTheme::ColorGroup)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setFocusColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setHoverColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::inheritChanged(bool)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::paletteChanged(QPalette const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setDefaultFont(QFont const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::colorSetChanged(Kirigami::Platform::PlatformTheme::ColorSet)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::smallFontChanged(QFont const&)
+libKirigamiPlatform.so.6:Kirigami::Platform::PlatformPluginFactory::PlatformPluginFactory(QObject*)
+libKirigamiPlatform.so.6:Kirigami::Platform::PlatformPluginFactory::~PlatformPluginFactory()
+libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::PlatformTheme(QObject*)
 libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::colorGroupChanged(Kirigami::Platform::PlatformTheme::ColorGroup)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setHighlightColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::defaultFontChanged(QFont const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setActiveTextColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setBackgroundColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomLinkColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomTextColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomFocusColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomHoverColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setNeutralTextColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setVisitedLinkColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setDisabledTextColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setNegativeTextColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setPositiveTextColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::qmlAttachedProperties(QObject*)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setLinkBackgroundColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomHighlightColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setHighlightedTextColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setSupportsIconColoring(bool)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setActiveBackgroundColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomActiveTextColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomBackgroundColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomNeutralTextColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomVisitedLinkColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setNeutralBackgroundColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomDisabledTextColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomNegativeTextColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomPositiveTextColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setNegativeBackgroundColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setPositiveBackgroundColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setAlternateBackgroundColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomLinkBackgroundColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomHighlightedTextColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setVisitedLinkBackgroundColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomActiveBackgroundColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setUseAlternateBackgroundColor(bool)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomNeutralBackgroundColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomNegativeBackgroundColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomPositiveBackgroundColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomAlternateBackgroundColor(QColor const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::useAlternateBackgroundColorChanged(bool)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setCustomVisitedLinkBackgroundColor(QColor const&)
+libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::colorSetChanged(Kirigami::Platform::PlatformTheme::ColorSet)
+libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::colorsChanged()
 libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::event(QEvent*)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::PlatformTheme(QObject*)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::PlatformTheme(QObject*)
+libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::inheritChanged(bool)
+libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::qmlAttachedProperties(QObject*)
+libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setColorGroup(Kirigami::Platform::PlatformTheme::ColorGroup)
+libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setColorSet(Kirigami::Platform::PlatformTheme::ColorSet)
+libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setInherit(bool)
+libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setSupportsIconColoring(bool)
+libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setUseAlternateBackgroundColor(bool)
+libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::useAlternateBackgroundColorChanged(bool)
 libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::~PlatformTheme()
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::~PlatformTheme()
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::~PlatformTheme()
-libKirigamiPlatform.so.6:Kirigami::Platform::StyleSelector::setBaseUrl(QUrl const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::StyleSelector::styleChain()
-libKirigamiPlatform.so.6:Kirigami::Platform::StyleSelector::componentUrl(QString const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::StyleSelector::resolveFileUrl(QString const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::StyleSelector::resolveFilePath(QString const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::StyleSelector::style()
-libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::addWatcher(QObject*)
-libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::qt_metacall(QMetaObject::Call, int, void**)
-libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::qt_metacast(char const*)
-libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::removeWatcher(QObject*)
-libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::tabletModeChanged(bool)
-libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::tabletModeAvailableChanged(bool)
-libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::self()
-libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::~TabletModeWatcher()
-libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::~TabletModeWatcher()
-libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::~TabletModeWatcher()
-libKirigamiPlatform.so.6:Kirigami::Platform::SmoothScrollWatcher::setEnabled(bool)
-libKirigamiPlatform.so.6:Kirigami::Platform::SmoothScrollWatcher::qt_metacall(QMetaObject::Call, int, void**)
-libKirigamiPlatform.so.6:Kirigami::Platform::SmoothScrollWatcher::qt_metacast(char const*)
-libKirigamiPlatform.so.6:Kirigami::Platform::SmoothScrollWatcher::enabledChanged(bool)
-libKirigamiPlatform.so.6:Kirigami::Platform::SmoothScrollWatcher::self()
-libKirigamiPlatform.so.6:Kirigami::Platform::SmoothScrollWatcher::SmoothScrollWatcher(QObject*)
-libKirigamiPlatform.so.6:Kirigami::Platform::SmoothScrollWatcher::SmoothScrollWatcher(QObject*)
-libKirigamiPlatform.so.6:Kirigami::Platform::SmoothScrollWatcher::~SmoothScrollWatcher()
-libKirigamiPlatform.so.6:Kirigami::Platform::SmoothScrollWatcher::~SmoothScrollWatcher()
-libKirigamiPlatform.so.6:Kirigami::Platform::SmoothScrollWatcher::~SmoothScrollWatcher()
-libKirigamiPlatform.so.6:Kirigami::Platform::BasicThemeDefinition::qt_metacall(QMetaObject::Call, int, void**)
-libKirigamiPlatform.so.6:Kirigami::Platform::BasicThemeDefinition::qt_metacast(char const*)
-libKirigamiPlatform.so.6:Kirigami::Platform::BasicThemeDefinition::sync(QQuickItem*)
-libKirigamiPlatform.so.6:Kirigami::Platform::BasicThemeDefinition::changed()
-libKirigamiPlatform.so.6:Kirigami::Platform::BasicThemeDefinition::syncToQml(Kirigami::Platform::PlatformTheme*)
-libKirigamiPlatform.so.6:Kirigami::Platform::BasicThemeDefinition::BasicThemeDefinition(QObject*)
-libKirigamiPlatform.so.6:Kirigami::Platform::BasicThemeDefinition::BasicThemeDefinition(QObject*)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformPluginFactory::findPlugin(QString const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformPluginFactory::qt_metacall(QMetaObject::Call, int, void**)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformPluginFactory::qt_metacast(char const*)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformPluginFactory::PlatformPluginFactory(QObject*)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformPluginFactory::PlatformPluginFactory(QObject*)
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformPluginFactory::~PlatformPluginFactory()
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformPluginFactory::~PlatformPluginFactory()
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformPluginFactory::~PlatformPluginFactory()
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::qt_metacall(QMetaObject::Call, int, void**)
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::qt_metacast(char const*)
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::activeChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::enabledChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::visibleChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::availableChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::willShowOnActiveChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::self()
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::VirtualKeyboardWatcher(QObject*)
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::VirtualKeyboardWatcher(QObject*)
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::~VirtualKeyboardWatcher()
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::~VirtualKeyboardWatcher()
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::~VirtualKeyboardWatcher()
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::eventFilter(QObject*, QEvent*)
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::qt_metacall(QMetaObject::Call, int, void**)
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::qt_metacast(char const*)
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::setGridUnit(int)
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::setHumanMoment(int)
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::gridUnitChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::setLargeSpacing(int)
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::setLongDuration(int)
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::setSmallSpacing(int)
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::setToolTipDelay(int)
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::setcornerRadius(double)
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::setMediumSpacing(int)
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::setShortDuration(int)
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::humanMomentChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::cornerRadiusChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::largeSpacingChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::longDurationChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::setVeryLongDuration(int)
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::smallSpacingChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::toolTipDelayChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::mediumSpacingChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::setVeryShortDuration(int)
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::shortDurationChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::veryLongDurationChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::wheelScrollLinesChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::veryShortDurationChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::create(QQmlEngine*, QJSEngine*)
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::Units(QObject*)
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::Units(QObject*)
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::~Units()
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::~Units()
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::~Units()
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::eventFilter(QObject*, QEvent*)
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::qt_metacall(QMetaObject::Call, int, void**)
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::qt_metacast(char const*)
+libKirigamiPlatform.so.6:Kirigami::Platform::Settings::Settings(QObject*)
+libKirigamiPlatform.so.6:Kirigami::Platform::Settings::hasTransientTouchInputChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::Settings::isMobileChanged()
 libKirigamiPlatform.so.6:Kirigami::Platform::Settings::setIsMobile(bool)
 libKirigamiPlatform.so.6:Kirigami::Platform::Settings::setTabletMode(bool)
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::isMobileChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::tabletModeChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::smoothScrollChanged()
 libKirigamiPlatform.so.6:Kirigami::Platform::Settings::setTabletModeAvailable(bool)
 libKirigamiPlatform.so.6:Kirigami::Platform::Settings::setTransientTouchInput(bool)
+libKirigamiPlatform.so.6:Kirigami::Platform::Settings::smoothScrollChanged()
 libKirigamiPlatform.so.6:Kirigami::Platform::Settings::tabletModeAvailableChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::hasTransientTouchInputChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::setStyle(QString const&)
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::Settings(QObject*)
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::Settings(QObject*)
+libKirigamiPlatform.so.6:Kirigami::Platform::Settings::tabletModeChanged()
 libKirigamiPlatform.so.6:Kirigami::Platform::Settings::~Settings()
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::~Settings()
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::~Settings()
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::hugeChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::qt_metacall(QMetaObject::Call, int, void**)
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::qt_metacast(char const*)
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::largeChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::smallChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::mediumChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::enormousChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::smallMediumChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::sizeForLabelsChanged()
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::IconSizes(Kirigami::Platform::Units*)
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::IconSizes(Kirigami::Platform::Units*)
-libKirigamiPlatform.so.6:ColorUtils::metaObject() const
-libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::metaObject() const
-libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::willShowOnActive() const
-libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::active() const
-libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::enabled() const
-libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::visible() const
-libKirigamiPlatform.so.6:Kirigami::Platform::InputMethod::available() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::colorGroup() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::focusColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::hoverColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::metaObject() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::defaultFont() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::frameContrast() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::highlightColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::activeTextColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::backgroundColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::neutralTextColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::visitedLinkColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::disabledTextColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::negativeTextColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::positiveTextColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::lightFrameContrast() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::linkBackgroundColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::highlightedTextColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::supportsIconColoring() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::activeBackgroundColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::neutralBackgroundColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::negativeBackgroundColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::positiveBackgroundColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::alternateBackgroundColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::visitedLinkBackgroundColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::useAlternateBackgroundColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::inherit() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::palette() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::colorSet() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::linkColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::smallFont() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::textColor() const
-libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::metaObject() const
-libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::isTabletMode() const
-libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::isTabletModeAvailable() const
-libKirigamiPlatform.so.6:Kirigami::Platform::SmoothScrollWatcher::metaObject() const
-libKirigamiPlatform.so.6:Kirigami::Platform::SmoothScrollWatcher::enabled() const
-libKirigamiPlatform.so.6:Kirigami::Platform::BasicThemeDefinition::metaObject() const
-libKirigamiPlatform.so.6:Kirigami::Platform::PlatformPluginFactory::metaObject() const
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::metaObject() const
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::willShowOnActive() const
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::active() const
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::enabled() const
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::visible() const
-libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::available() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::metaObject() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::humanMoment() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::cornerRadius() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::largeSpacing() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::longDuration() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::smallSpacing() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::toolTipDelay() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::mediumSpacing() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::shortDuration() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::veryLongDuration() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::veryShortDuration() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::gridUnit() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Units::iconSizes() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::metaObject() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::tabletMode() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::information() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::smoothScroll() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::hasPlatformMenuBar() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::applicationWindowIcon() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::isTabletModeAvailable() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::mouseWheelScrollLines() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::hasTransientTouchInput() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::style() const
-libKirigamiPlatform.so.6:Kirigami::Platform::Settings::isMobile() const
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::metaObject() const
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::smallMedium() const
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::sizeForLabels() const
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::roundedIconSize(int) const
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::huge() const
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::large() const
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::small() const
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::medium() const
-libKirigamiPlatform.so.6:Kirigami::Platform::IconSizes::enormous() const
+libKirigamiPlatform.so.6:Kirigami::Platform::SmoothScrollWatcher::SmoothScrollWatcher(QObject*)
+libKirigamiPlatform.so.6:Kirigami::Platform::SmoothScrollWatcher::enabledChanged(bool)
+libKirigamiPlatform.so.6:Kirigami::Platform::SmoothScrollWatcher::self()
+libKirigamiPlatform.so.6:Kirigami::Platform::SmoothScrollWatcher::setEnabled(bool)
+libKirigamiPlatform.so.6:Kirigami::Platform::SmoothScrollWatcher::~SmoothScrollWatcher()
+libKirigamiPlatform.so.6:Kirigami::Platform::StyleSelector::style()
+libKirigamiPlatform.so.6:Kirigami::Platform::StyleSelector::styleChain()
+libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::addWatcher(QObject*)
+libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::removeWatcher(QObject*)
+libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::self()
+libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::tabletModeAvailableChanged(bool)
+libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::tabletModeChanged(bool)
+libKirigamiPlatform.so.6:Kirigami::Platform::TabletModeWatcher::~TabletModeWatcher()
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::Units(QObject*)
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::cornerRadiusChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::gridUnitChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::humanMomentChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::largeSpacingChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::longDurationChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::mediumSpacingChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::setGridUnit(int)
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::setHumanMoment(int)
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::setLargeSpacing(int)
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::setLongDuration(int)
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::setMediumSpacing(int)
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::setShortDuration(int)
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::setSmallSpacing(int)
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::setToolTipDelay(int)
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::setVeryLongDuration(int)
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::setVeryShortDuration(int)
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::setcornerRadius(double)
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::shortDurationChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::smallSpacingChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::toolTipDelayChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::veryLongDurationChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::veryShortDurationChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::wheelScrollLinesChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::Units::~Units()
+libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::VirtualKeyboardWatcher(QObject*)
+libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::activeChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::availableChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::enabledChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::self()
+libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::visibleChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::willShowOnActiveChanged()
+libKirigamiPlatform.so.6:Kirigami::Platform::VirtualKeyboardWatcher::~VirtualKeyboardWatcher()
+libKirigamiPlatform.so.6:qml_register_types_org_kde_kirigami_platform()
 libKirigamiPrimitives.so.6:qml_register_types_org_kde_kirigami_primitives()
 libKirigamiPrivate.so.6:qml_register_types_org_kde_kirigami_private()
