@@ -38,6 +38,8 @@ libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setSupportsIconColor
 libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::setUseAlternateBackgroundColor(bool)
 libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::useAlternateBackgroundColorChanged(bool)
 libKirigamiPlatform.so.6:Kirigami::Platform::PlatformTheme::~PlatformTheme()
+libKirigamiPlatform.so.6:Kirigami::Platform::PlatformThemeChangeTracker::markDirty(QFlags<Kirigami::Platform::PlatformThemeChangeTracker::PropertyChange>)
+libKirigamiPlatform.so.6:Kirigami::Platform::PlatformThemeChangeTracker::~PlatformThemeChangeTracker()
 libKirigamiPlatform.so.6:Kirigami::Platform::Settings::Settings(QObject*)
 libKirigamiPlatform.so.6:Kirigami::Platform::Settings::hasTransientTouchInputChanged()
 libKirigamiPlatform.so.6:Kirigami::Platform::Settings::isMobileChanged()
