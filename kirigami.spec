@@ -8,11 +8,11 @@
 # Source0 file verified with key 0x2C8DF587A6D4AAC1 (nicolas.fella@kde.org)
 #
 Name     : kirigami
-Version  : 6.14.0
-Release  : 23
-URL      : https://download.kde.org/stable/frameworks/6.14/kirigami-6.14.0.tar.xz
-Source0  : https://download.kde.org/stable/frameworks/6.14/kirigami-6.14.0.tar.xz
-Source1  : https://download.kde.org/stable/frameworks/6.14/kirigami-6.14.0.tar.xz.sig
+Version  : 6.14.1
+Release  : 24
+URL      : https://download.kde.org/stable/frameworks/6.14/kirigami-6.14.1.tar.xz
+Source0  : https://download.kde.org/stable/frameworks/6.14/kirigami-6.14.1.tar.xz
+Source1  : https://download.kde.org/stable/frameworks/6.14/kirigami-6.14.1.tar.xz.sig
 Source2  : 2C8DF587A6D4AAC1.pkey
 Summary  : No detailed summary available
 Group    : Development/Tools
@@ -80,15 +80,15 @@ chmod 700 .gnupg
 gpg --homedir .gnupg --import %{SOURCE2}
 gpg --homedir .gnupg --status-fd 1 --verify %{SOURCE1} %{SOURCE0} > gpg.status
 grep -E '^\[GNUPG:\] (GOODSIG|EXPKEYSIG) 2C8DF587A6D4AAC1' gpg.status
-%setup -q -n kirigami-6.14.0
-cd %{_builddir}/kirigami-6.14.0
+%setup -q -n kirigami-6.14.1
+cd %{_builddir}/kirigami-6.14.1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1747114434
+export SOURCE_DATE_EPOCH=1747404920
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -125,7 +125,7 @@ FFLAGS="$CLEAR_INTERMEDIATE_FFLAGS"
 FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS"
 ASFLAGS="$CLEAR_INTERMEDIATE_ASFLAGS"
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS"
-export SOURCE_DATE_EPOCH=1747114434
+export SOURCE_DATE_EPOCH=1747404920
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kirigami
 cp %{_builddir}/kirigami-%{version}/LICENSES/BSD-2-Clause.txt %{buildroot}/usr/share/package-licenses/kirigami/52039e5c19c950d4c7d6ec5da42ebba2c6def7ee || :
@@ -250,21 +250,21 @@ popd
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libKirigami.so.6
-/usr/lib64/libKirigami.so.6.14.0
+/usr/lib64/libKirigami.so.6.14.1
 /usr/lib64/libKirigamiDelegates.so.6
-/usr/lib64/libKirigamiDelegates.so.6.14.0
+/usr/lib64/libKirigamiDelegates.so.6.14.1
 /usr/lib64/libKirigamiDialogs.so.6
-/usr/lib64/libKirigamiDialogs.so.6.14.0
+/usr/lib64/libKirigamiDialogs.so.6.14.1
 /usr/lib64/libKirigamiLayouts.so.6
-/usr/lib64/libKirigamiLayouts.so.6.14.0
+/usr/lib64/libKirigamiLayouts.so.6.14.1
 /usr/lib64/libKirigamiLayoutsPrivate.so.6
-/usr/lib64/libKirigamiLayoutsPrivate.so.6.14.0
+/usr/lib64/libKirigamiLayoutsPrivate.so.6.14.1
 /usr/lib64/libKirigamiPlatform.so.6
-/usr/lib64/libKirigamiPlatform.so.6.14.0
+/usr/lib64/libKirigamiPlatform.so.6.14.1
 /usr/lib64/libKirigamiPrimitives.so.6
-/usr/lib64/libKirigamiPrimitives.so.6.14.0
+/usr/lib64/libKirigamiPrimitives.so.6.14.1
 /usr/lib64/libKirigamiPrivate.so.6
-/usr/lib64/libKirigamiPrivate.so.6.14.0
+/usr/lib64/libKirigamiPrivate.so.6.14.1
 /usr/lib64/qt6/qml/org/kde/kirigami/AboutItem.qml
 /usr/lib64/qt6/qml/org/kde/kirigami/AboutPage.qml
 /usr/lib64/qt6/qml/org/kde/kirigami/AbstractApplicationHeader.qml
