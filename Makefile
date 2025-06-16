@@ -1,5 +1,5 @@
 PKG_NAME := kirigami
-URL = https://download.kde.org/stable/frameworks/6.14/kirigami-6.14.1.tar.xz
+URL = https://download.kde.org/stable/frameworks/6.15/kirigami-6.15.0.tar.xz
 ARCHIVES = 
 
 include ../common/Makefile.common
